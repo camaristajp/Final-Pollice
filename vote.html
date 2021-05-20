@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="Logo Icon" href="img/Main Logo.svg">
     <link rel="stylesheet" href="public/css/tailwind.css">
-    <title>Pollice Base 2</title>
+    <title>Pollice | Vote</title>
 </head>
 
 <!-- Body Class -->
@@ -16,8 +16,8 @@
     <!-- Main Container -->
     <div class="relative h-screen w-full overflow-hidden">
         <!-- Background-->
-        <div style="z-index: -10" 
-        class="absolute bg-gradient-to-br from-blue-100 via-purple-200 to-purple-300 h-full w-full">
+        <div style="z-index: -10"
+            class="absolute bg-gradient-to-br from-blue-100 via-purple-200 to-purple-300 h-full w-full">
             <!--Background Image-->
             <img src="img/background-icons/BGCubes.svg"
                 class="absolute max-w-screen-lg max-h-screen ml-32 inset-y-0 -right-52 opacity-30 bg-auto filter blur-sm sm:bg-fixed sm:h-screen sm:opacity-30 sm:max-w-screen-lg sm:-right-28 md:max-w-screen-lg md:-right-28 lg:-right-16 lg:max-w-screen-2xl"
@@ -41,7 +41,7 @@
                     <div
                         class="flex w-full flex-row justify-evenly items-center py-3 px-3 sm:flex sm:justify-evenly lg:flex-col lg:space-y-10 lg:items-start lg:place-content-center">
                         <!-- Home -->
-                        <a href="" class="nav-item-active">
+                        <a href="" class="nav-item">
                             <!--<svg class="w-6 h-6 md:w-7 md:h-7" width="35" height="35" viewBox="0 0 35 35" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -60,7 +60,7 @@
                             <span class="hidden lg:inline">Home</span>
                         </a>
                         <!-- Vote -->
-                        <a href="" class="nav-item ">
+                        <a href="" class="nav-item-active">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 md:w-8 md:h-8 lg:w-9 lg:h-9"
                                 viewBox="0 0 20 20" fill="currentColor">
                                 <path
@@ -101,7 +101,8 @@
                 </nav>
             </div>
             <!-- Main Body -->
-            <div class="flex w-full h-auto flex-col flex-grow p-12 mt-auto mb-auto lg:mt-0 lg:mb-0 overflow-y-scroll text-gray-700 ">
+            <div
+                class="flex w-full h-auto flex-col flex-grow p-12 mt-auto mb-auto lg:mt-0 lg:mb-0 overflow-y-scroll text-gray-700 ">
                 <!-- Header -->
                 <div class="flex justify-between w-full">
                     <div class="relative -ml-4 w-72 h-20 rounded-xl p-4 text-white shadow-lg sm:p-6 sm:w-7/12 sm:mt-3 sm:ml-2 sm:rounded-2xl  md:ml-4 md:mt-4 sm:h-28 "
@@ -125,107 +126,45 @@
                     </a>
                 </div>
                 <!-- Title -->
-                <div class="flex flex-wrap p-0">
-                    <div class="w-full p-6">
+                <div class="inline-block p-0 ">
+                    <div class="w-full p-6 flex-row inline-block">
                         <h1
-                            class="text-xl font-light tracking-wide flex justify-center sm:text-2xl md:text-3xl lg:text-4xl sm:p-1 md:p-3 lg:p-4">
-                            News and Updates
+                            class="text-2xl font-normal tracking-wider flex justify-center sm:text-2xl md:text-3xl lg:text-4xl sm:p-1 md:p-3 lg:p-4">
+                            Vote
                         </h1>
                     </div>
-                    <div class="p-0 mb-12 sm:p-8 sm:pt-0 lg:p-28 lg:pt-0">
+                    <div class="grid grid-cols-1 gap-6 flex-row w-auto h-auto justify-items-center content-center">
                         <!-- Content -->
-                        <div class="filter backdrop-blur-3xl w-auto h-auto p-5 border border-white lg:w-auto lg:flex lg:place-self-center"
-                            style=" background: linear-gradient(118.32deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+                        <div class="filter backdrop-blur-3xl w-10/12 h-10/12 p-5 pl-4 pr-4 border order-first border-white" style=" background: linear-gradient(118.32deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
                                 backdrop-filter: blur(1000px);
                                 border-radius: 16px;">
                             <!--First Content-->
-                            <div class=" flex place-items-start flex-nowrap flex-col w-auto p-3 ">
-                                <div class="w-full relative flex flex-nowrap justify-start items-center">
-                                    <!-- Profile and Name -->
-                                    <img class=" relative filter drop-shadow-md mb-2"
-                                        src="img/heading-icons/Final Profile pic(1).svg" alt="" srcset="">
-                                    <h4
-                                        class="flex justify-end static w-auto h-auto p-2 bg-red-400 text-white rounded pl-10 -ml-8 sm:w-auto ">
-                                        John Lennon</h4>
-                                </div>
-                                <p class="p-1 pt-2 sm:p-6 sm:pt-2 text-xs font-thin mt-1 ">Contrary to popular belief,
-                                    Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
-                                    literature from 45 BC, making it over 2000 years old.
-                                    Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked
-                                    up
-                                    one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-                                    going
-                                    through the cites of the word in classical literature, discovered the undoubtable
-                                    source.
-                                    Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
-                                    Malorum"
-                                    (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise
-                                    on
-                                    the theory of ethics, very popular during the Renaissance. The first line of Lorem
-                                    Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
-                                    interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
-                                    Cicero
-                                    are also reproduced in their exact original form, accompanied by English versions
-                                    from
-                                    the 1914 translation by H. Rackham.
-                                    Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
-                                    literature from 45 BC, making it over 2000 years old.
-                                    Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked
-                                    up
-                                    one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-                                    going
-                                    through the cites of the word in classical literature, discovered the undoubtable
-                                    source.
-                                </p>
+                            <div class="flex items-center flex-col w-auto h-auto">
+                                <h4
+                                    class="flex flex-col place-items-center justify-center items-center w-auto h-auto p-2 mb-1 bg-indigo-700 pl-4 pr-4 text-white rounded sm:w-auto ">
+                                    President
+                                </h4>
+                                <form action="/action_page.php">
+                                    <div class="w-full h-auto text-gray-700 text-base grid grid-cols-1 gap-2 p-3">
+                                        <label class="container ">Christina Perri
+                                            <input class="grid-cols-2 content-end" type="radio" checked="checked">
+                                            <span class="checkmark"></span>
+                                        </label>
+
+                                        <label class="container">John Legend
+                                            <input type="radio">
+                                            <span class="checkmark"></span>
+                                        </label>
+
+                                        <label class="container">Adam Levine
+                                            <input type="radio">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </form>
                             </div>
                         </div>
-                        <div class="filter backdrop-blur-3xl w-auto h-auto mt-6 p-5 border border-white lg:w-auto lg:flex lg:place-self-center"
-                            style=" background: linear-gradient(118.32deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
-                                backdrop-filter: blur(1000px);
-                                border-radius: 16px;">
-                            <!--First Content-->
-                            <div class=" flex place-items-start flex-nowrap flex-col w-auto p-3 ">
-                                <div class="w-full relative flex flex-nowrap justify-start items-center">
-                                    <!-- Profile and Name -->
-                                    <img class=" relative filter drop-shadow-md mb-2"
-                                        src="img/heading-icons/Final Profile pic(1).svg" alt="" srcset="">
-                                    <h4
-                                        class="flex justify-end static w-auto h-auto p-2 bg-red-400 text-white rounded pl-10 -ml-8 sm:w-auto ">
-                                        John Lennon</h4>
-                                </div>
-                                <p class=" text-xs font-thin mt-1 ">Contrary to popular belief,
-                                    Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
-                                    literature from 45 BC, making it over 2000 years old.
-                                    Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked
-                                    up
-                                    one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-                                    going
-                                    through the cites of the word in classical literature, discovered the undoubtable
-                                    source.
-                                    Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
-                                    Malorum"
-                                    (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise
-                                    on
-                                    the theory of ethics, very popular during the Renaissance. The first line of Lorem
-                                    Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
-                                    interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
-                                    Cicero
-                                    are also reproduced in their exact original form, accompanied by English versions
-                                    from
-                                    the 1914 translation by H. Rackham.
-                                    Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
-                                    literature from 45 BC, making it over 2000 years old.
-                                    Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked
-                                    up
-                                    one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-                                    going
-                                    through the cites of the word in classical literature, discovered the undoubtable
-                                    source.
-                                </p>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
