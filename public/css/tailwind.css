@@ -190646,3 +190646,14 @@ video {
   }
 }
 
+.bg-main {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  --tw-gradient-from: #dbeafe;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(219, 234, 254, 0));
+  --tw-gradient-stops: var(--tw-gradient-from), #ddd6fe, var(--tw-gradient-to, rgba(221, 214, 254, 0));
+  --tw-gradient-to: #c4b5fd;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+

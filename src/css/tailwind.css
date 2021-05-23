@@ -27,3 +27,7 @@
     }
 }
 
+.bg-main {
+    @apply relative bg-gradient-to-br from-blue-100 via-purple-200 to-purple-300 h-full w-full;
+}
+
