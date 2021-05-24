@@ -12,6 +12,7 @@ module.exports = {
           blue:'#49AADE',
           gray:'#222222',
         }
+        
       },
       fontFamily: {
         body: ['Montserrat']

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="Logo Icon" href="img/Main Logo.svg">
     <link rel="stylesheet" href="public/css/tailwind.css">
+
     <title>Pollice | Vote</title>
 </head>
 
@@ -45,7 +46,7 @@
                     <div
                         class="flex w-full flex-row justify-evenly items-center py-3 px-3 sm:flex sm:justify-evenly lg:flex-col lg:space-y-10 lg:items-start lg:place-content-center">
                         <!-- Home -->
-                        <a href="" class="nav-item">
+                        <a href="home.html" class="nav-item">
                             <!--<svg class="w-6 h-6 md:w-7 md:h-7" width="35" height="35" viewBox="0 0 35 35" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -83,7 +84,7 @@
                             <span class="hidden lg:inline">Result</span>
                         </a>
                         <!-- About -->
-                        <a href="" class="nav-item">
+                        <a href="about.html" class="nav-item">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 md:w-8 md:h-8 lg:w-9 lg:h-9"
                                 viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd"
@@ -147,25 +148,29 @@
                                 border-radius: 16px;">
                             <!--First Content-->
                             <div class="flex items-center flex-col w-auto h-auto">
-                                <h4 class="flex flex-col place-items-center justify-center items-center w-auto h-auto p-2 mb-1 pl-4 pr-4 text-white rounded sm:w-auto "
+                                <h4 class="flex flex-col place-items-center justify-center items-center w-auto h-auto p-2 mb-1 pl-4 pr-4 text-white rounded sm:w-auto md:text-lg"
                                     style="background: #E2502B;">
                                     Chairperson
                                 </h4>
                                 <form action="/action_page.php">
-                                    <div class="w-full h-auto text-gray-700 text-base grid grid-cols-1 gap-2 p-3">
-                                        <label class="container ">Christina Perri
-                                            <input class="grid-cols-2 content-end" type="radio" checked="checked">
-                                            <span class="checkmark"></span>
+                                    <div
+                                        class="w-full h-auto text-gray-700 text-base grid grid-cols-1 gap-2 p-3 md:text-base">
+                                        <label>
+                                            <input type="radio" name="light" checked>
+                                            <span class="design"></span>
+                                            <span class="text">Jane Cooper</span>
                                         </label>
 
-                                        <label class="container">John Legend
-                                            <input type="radio">
-                                            <span class="checkmark"></span>
+                                        <label>
+                                            <input type="radio" name="light">
+                                            <span class="design"></span>
+                                            <span class="text">Eleanor Pena</span>
                                         </label>
 
-                                        <label class="container">Adam Levine
-                                            <input type="radio">
-                                            <span class="checkmark"></span>
+                                        <label>
+                                            <input type="radio" name="light">
+                                            <span class="design"></span>
+                                            <span class="text">Jenny Wilson</span>
                                         </label>
                                     </div>
                                 </form>
@@ -175,27 +180,31 @@
                             style=" background: linear-gradient(118.32deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
                                 backdrop-filter: blur(1000px);
                                 border-radius: 16px;">
-                            <!--First Content-->
+                            <!--Second Content-->
                             <div class="flex items-center flex-col w-auto h-auto">
-                                <h4 class="flex flex-col place-items-center justify-center items-center w-auto h-auto p-2 mb-1 pl-4 pr-4 text-white rounded sm:w-auto "
+                                <h4 class="flex flex-col place-items-center justify-center items-center w-auto h-auto p-2 mb-1 pl-4 pr-4 text-white rounded sm:w-auto md:text-lg"
                                     style="background: #E2502B;">
                                     Secretary
                                 </h4>
                                 <form action="/action_page.php">
-                                    <div class="w-full h-auto text-gray-700 text-base grid grid-cols-1 gap-2 p-3">
-                                        <label class="container ">Christina Perri
-                                            <input class="grid-cols-2 content-end" type="radio" checked="checked">
-                                            <span class="checkmark"></span>
+                                    <div
+                                        class="w-full h-auto text-gray-700 text-base grid grid-cols-1 gap-2 p-3 md:text-base">
+                                        <label>
+                                            <input type="radio" name="light" checked>
+                                            <span class="design"></span>
+                                            <span class="text">Jane Cooper</span>
                                         </label>
 
-                                        <label class="container">John Legend
-                                            <input type="radio">
-                                            <span class="checkmark"></span>
+                                        <label>
+                                            <input type="radio" name="light">
+                                            <span class="design"></span>
+                                            <span class="text">Eleanor Pena</span>
                                         </label>
 
-                                        <label class="container">Adam Levine
-                                            <input type="radio">
-                                            <span class="checkmark"></span>
+                                        <label>
+                                            <input type="radio" name="light">
+                                            <span class="design"></span>
+                                            <span class="text">Jenny Wilson</span>
                                         </label>
                                     </div>
                                 </form>
@@ -205,27 +214,31 @@
                             style=" background: linear-gradient(118.32deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
                                 backdrop-filter: blur(1000px);
                                 border-radius: 16px;">
-                            <!--First Content-->
+                            <!--Third Content-->
                             <div class="flex items-center flex-col w-auto h-auto">
-                                <h4 class="flex flex-col place-items-center justify-center items-center w-auto h-auto p-2 mb-1 pl-4 pr-4 text-white rounded sm:w-auto "
+                                <h4 class="flex flex-col place-items-center justify-center items-center w-auto h-auto p-2 mb-1 pl-4 pr-4 text-white rounded sm:w-auto md:text-lg"
                                     style="background: #E2502B;">
                                     Treasurer
                                 </h4>
                                 <form action="/action_page.php">
-                                    <div class="w-full h-auto text-gray-700 text-base grid grid-cols-1 gap-2 p-3">
-                                        <label class="container ">Christina Perri
-                                            <input class="grid-cols-2 content-end" type="radio" checked="checked">
-                                            <span class="checkmark"></span>
+                                    <div
+                                        class="w-full h-auto text-gray-700 text-base grid grid-cols-1 gap-2 p-3 md:text-base">
+                                        <label>
+                                            <input type="radio" name="light" checked>
+                                            <span class="design"></span>
+                                            <span class="text">Jane Cooper</span>
                                         </label>
 
-                                        <label class="container">John Legend
-                                            <input type="radio">
-                                            <span class="checkmark"></span>
+                                        <label>
+                                            <input type="radio" name="light">
+                                            <span class="design"></span>
+                                            <span class="text">Eleanor Pena</span>
                                         </label>
 
-                                        <label class="container">Adam Levine
-                                            <input type="radio">
-                                            <span class="checkmark"></span>
+                                        <label>
+                                            <input type="radio" name="light">
+                                            <span class="design"></span>
+                                            <span class="text">Jenny Wilson</span>
                                         </label>
                                     </div>
                                 </form>
@@ -235,27 +248,31 @@
                             style=" background: linear-gradient(118.32deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
                                 backdrop-filter: blur(1000px);
                                 border-radius: 16px;">
-                            <!--First Content-->
+                            <!--Third Content-->
                             <div class="flex items-center flex-col w-auto h-auto">
-                                <h4 class="flex flex-col place-items-center justify-center items-center w-auto h-auto p-2 mb-1 pl-4 pr-4 text-white rounded sm:w-auto "
+                                <h4 class="flex flex-col place-items-center justify-center items-center w-auto h-auto p-2 mb-1 pl-4 pr-4 text-white rounded sm:w-auto md:text-lg"
                                     style="background: #E2502B;">
                                     Auditor
                                 </h4>
                                 <form action="/action_page.php">
-                                    <div class="w-full h-auto text-gray-700 text-base grid grid-cols-1 gap-2 p-3">
-                                        <label class="container ">Christina Perri
-                                            <input class="grid-cols-2 content-end" type="radio" checked="checked">
-                                            <span class="checkmark"></span>
+                                    <div
+                                        class="w-full h-auto text-gray-700 text-base grid grid-cols-1 gap-2 p-3 md:text-base">
+                                        <label>
+                                            <input type="radio" name="light" checked>
+                                            <span class="design"></span>
+                                            <span class="text">Jane Cooper</span>
                                         </label>
 
-                                        <label class="container">John Legend
-                                            <input type="radio">
-                                            <span class="checkmark"></span>
+                                        <label>
+                                            <input type="radio" name="light">
+                                            <span class="design"></span>
+                                            <span class="text">Eleanor Pena</span>
                                         </label>
 
-                                        <label class="container">Adam Levine
-                                            <input type="radio">
-                                            <span class="checkmark"></span>
+                                        <label>
+                                            <input type="radio" name="light">
+                                            <span class="design"></span>
+                                            <span class="text">Jenny Wilson</span>
                                         </label>
                                     </div>
                                 </form>
@@ -265,27 +282,31 @@
                             style=" background: linear-gradient(118.32deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
                                 backdrop-filter: blur(1000px);
                                 border-radius: 16px;">
-                            <!--First Content-->
+                            <!--Fourth Content-->
                             <div class="flex items-center flex-col w-auto h-auto">
-                                <h4 class="flex flex-col place-items-center justify-center items-center w-auto h-auto p-2 mb-1 pl-4 pr-4 text-white rounded sm:w-auto "
+                                <h4 class="flex flex-col place-items-center justify-center items-center w-auto h-auto p-2 mb-1 pl-4 pr-4 text-white rounded sm:w-auto md:text-lg"
                                     style="background: #E2502B;">
                                     Business Manager
                                 </h4>
                                 <form action="/action_page.php">
-                                    <div class="w-full h-auto text-gray-700 text-base grid grid-cols-1 gap-2 p-3">
-                                        <label class="container ">Christina Perri
-                                            <input class="grid-cols-2 content-end" type="radio" checked="checked">
-                                            <span class="checkmark"></span>
+                                    <div
+                                        class="w-full h-auto text-gray-700 text-base grid grid-cols-1 gap-2 p-3 md:text-base">
+                                        <label>
+                                            <input type="radio" name="light" checked>
+                                            <span class="design"></span>
+                                            <span class="text">Jane Cooper</span>
                                         </label>
 
-                                        <label class="container">John Legend
-                                            <input type="radio">
-                                            <span class="checkmark"></span>
+                                        <label>
+                                            <input type="radio" name="light">
+                                            <span class="design"></span>
+                                            <span class="text">Eleanor Pena</span>
                                         </label>
 
-                                        <label class="container">Adam Levine
-                                            <input type="radio">
-                                            <span class="checkmark"></span>
+                                        <label>
+                                            <input type="radio" name="light">
+                                            <span class="design"></span>
+                                            <span class="text">Jenny Wilson</span>
                                         </label>
                                     </div>
                                 </form>
@@ -295,27 +316,31 @@
                             style=" background: linear-gradient(118.32deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
                                 backdrop-filter: blur(1000px);
                                 border-radius: 16px;">
-                            <!--First Content-->
+                            <!--Sixth Content-->
                             <div class="flex items-center flex-col w-auto h-auto">
-                                <h4 class="flex flex-col place-items-center justify-center items-center w-auto h-auto p-2 mb-1 pl-4 pr-4 text-white rounded sm:w-auto "
+                                <h4 class="flex flex-col place-items-center justify-center items-center w-auto h-auto p-2 mb-1 pl-4 pr-4 text-white rounded sm:w-auto md:text-lg"
                                     style="background: #E2502B;">
                                     Peace Officer
                                 </h4>
                                 <form action="/action_page.php">
-                                    <div class="w-full h-auto text-gray-700 text-base grid grid-cols-1 gap-2 p-3">
-                                        <label class="container ">Christina Perri
-                                            <input class="grid-cols-2 content-end" type="radio" checked="checked">
-                                            <span class="checkmark"></span>
+                                    <div
+                                        class="w-full h-auto text-gray-700 text-base grid grid-cols-1 gap-2 p-3 md:text-base">
+                                        <label>
+                                            <input type="radio" name="light" checked>
+                                            <span class="design"></span>
+                                            <span class="text">Jane Cooper</span>
                                         </label>
 
-                                        <label class="container">John Legend
-                                            <input type="radio">
-                                            <span class="checkmark"></span>
+                                        <label>
+                                            <input type="radio" name="light">
+                                            <span class="design"></span>
+                                            <span class="text">Eleanor Pena</span>
                                         </label>
 
-                                        <label class="container">Adam Levine
-                                            <input type="radio">
-                                            <span class="checkmark"></span>
+                                        <label>
+                                            <input type="radio" name="light">
+                                            <span class="design"></span>
+                                            <span class="text">Jenny Wilson</span>
                                         </label>
                                     </div>
                                 </form>
@@ -325,27 +350,31 @@
                             style=" background: linear-gradient(118.32deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
                                 backdrop-filter: blur(1000px);
                                 border-radius: 16px;">
-                            <!--First Content-->
+                            <!--Seventh Content-->
                             <div class="flex items-center flex-col w-auto h-auto">
-                                <h4 class="flex flex-col place-items-center justify-center items-center w-auto h-auto p-2 mb-1 pl-4 pr-4 text-white rounded sm:w-auto "
+                                <h4 class="flex flex-col place-items-center justify-center items-center w-auto h-auto p-2 mb-1 pl-4 pr-4 text-white rounded sm:w-auto md:text-lg"
                                     style="background: #E2502B;">
                                     Representative 1
                                 </h4>
                                 <form action="/action_page.php">
-                                    <div class="w-full h-auto text-gray-700 text-base grid grid-cols-1 gap-2 p-3">
-                                        <label class="container ">Christina Perri
-                                            <input class="grid-cols-2 content-end" type="radio" checked="checked">
-                                            <span class="checkmark"></span>
+                                    <div
+                                        class="w-full h-auto text-gray-700 text-base grid grid-cols-1 gap-2 p-3 md:text-base">
+                                        <label>
+                                            <input type="radio" name="light" checked>
+                                            <span class="design"></span>
+                                            <span class="text">Jane Cooper</span>
                                         </label>
 
-                                        <label class="container">John Legend
-                                            <input type="radio">
-                                            <span class="checkmark"></span>
+                                        <label>
+                                            <input type="radio" name="light">
+                                            <span class="design"></span>
+                                            <span class="text">Eleanor Pena</span>
                                         </label>
 
-                                        <label class="container">Adam Levine
-                                            <input type="radio">
-                                            <span class="checkmark"></span>
+                                        <label>
+                                            <input type="radio" name="light">
+                                            <span class="design"></span>
+                                            <span class="text">Jenny Wilson</span>
                                         </label>
                                     </div>
                                 </form>
@@ -355,27 +384,31 @@
                             style=" background: linear-gradient(118.32deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
                                 backdrop-filter: blur(1000px);
                                 border-radius: 16px;">
-                            <!--First Content-->
+                            <!--Eighth Content-->
                             <div class="flex items-center flex-col w-auto h-auto">
-                                <h4 class="flex flex-col place-items-center justify-center items-center w-auto h-auto p-2 mb-1 pl-4 pr-4 text-white rounded sm:w-auto "
+                                <h4 class="flex flex-col place-items-center justify-center items-center w-auto h-auto p-2 mb-1 pl-4 pr-4 text-white rounded sm:w-auto md:text-lg"
                                     style="background: #E2502B;">
                                     Representative 2
                                 </h4>
                                 <form action="/action_page.php">
-                                    <div class="w-full h-auto text-gray-700 text-base grid grid-cols-1 gap-2 p-3">
-                                        <label class="container ">Christina Perri
-                                            <input class="grid-cols-2 content-end" type="radio" checked="checked">
-                                            <span class="checkmark"></span>
+                                    <div
+                                        class="w-full h-auto text-gray-700 text-base grid grid-cols-1 gap-2 p-3 md:text-base">
+                                        <label>
+                                            <input type="radio" name="light" checked>
+                                            <span class="design"></span>
+                                            <span class="text">Jane Cooper</span>
                                         </label>
 
-                                        <label class="container">John Legend
-                                            <input type="radio">
-                                            <span class="checkmark"></span>
+                                        <label>
+                                            <input type="radio" name="light">
+                                            <span class="design"></span>
+                                            <span class="text">Eleanor Pena</span>
                                         </label>
 
-                                        <label class="container">Adam Levine
-                                            <input type="radio">
-                                            <span class="checkmark"></span>
+                                        <label>
+                                            <input type="radio" name="light">
+                                            <span class="design"></span>
+                                            <span class="text">Jenny Wilson</span>
                                         </label>
                                     </div>
                                 </form>
@@ -385,7 +418,8 @@
                 </div>
                 <a href="">
                     <div class="flex justify-end p-8 pb-12">
-                        <button class="transition duration-500 ease-in-out hover:bg-indigo-600 transform hover:-translate-y-1 hover:scale-110 rounded-xl p-3 h-14 w-36 text-white text-lg bg-indigo-700 
+                        <button
+                            class="transition duration-500 ease-in-out hover:bg-indigo-600 transform hover:-translate-y-1 hover:scale-110 rounded-xl p-3 h-14 w-36 text-white text-lg bg-indigo-700 
                         lg:text-xl lg:p-4 lg:h-16 lg:w-40 lg:transition lg:duration-300 lg:ease-in-out lg:transform lg:hover:-translate-y-1 lg:hover:scale-110">
                             Submit
                         </button>

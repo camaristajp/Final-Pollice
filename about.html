@@ -16,7 +16,7 @@
     <!-- Main Container -->
     <div class="relative h-screen w-full overflow-hidden">
         <!-- Background-->
-        <div style="z-index: -10" class="absolute bg-gradient-to-br from-green-100 to-purple-300 h-full w-full">
+        <div style="z-index: -10" class="absolute bg-gradient-to-br from-green-100 via-green-50 to-purple-300 h-full w-full">
             <!--Background Image-->
             <img src="img/background-icons/BGCubes.svg"
                 class="absolute max-w-screen-lg max-h-screen ml-32 inset-y-0 -right-52 opacity-30 bg-auto filter blur-sm sm:bg-fixed sm:h-screen sm:opacity-30 sm:max-w-screen-lg sm:-right-28 md:max-w-screen-lg md:-right-28 lg:-right-16 lg:max-w-screen-2xl"
@@ -35,12 +35,16 @@
                     <!-- Main Logo -->
                     <a href="error.html" class="hidden lg:block">
                         <img class="object-top mt-4 filter drop-shadow-lg" src="img/Main Logo.svg" alt="">
+                        <p class="filter drop-shadow-xl text-2xl flex justify-center font-light tracking-wide"
+                            style="color: #16BDCA;">
+                            Pollice
+                        </p>
                     </a>
                     <!-- Flex List Of NavLinks -->
                     <div
                         class="flex w-full flex-row justify-evenly items-center py-3 px-3 sm:flex sm:justify-evenly lg:flex-col lg:space-y-10 lg:items-start lg:place-content-center">
                         <!-- Home -->
-                        <a href="" class="nav-item">
+                        <a href="home.html" class="nav-item">
                             <!--<svg class="w-6 h-6 md:w-7 md:h-7" width="35" height="35" viewBox="0 0 35 35" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -59,7 +63,7 @@
                             <span class="hidden lg:inline">Home</span>
                         </a>
                         <!-- Vote -->
-                        <a href="" class="nav-item">
+                        <a href="vote.html" class="nav-item">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 md:w-8 md:h-8 lg:w-9 lg:h-9"
                                 viewBox="0 0 20 20" fill="currentColor">
                                 <path
@@ -78,7 +82,7 @@
                             <span class="hidden lg:inline">Result</span>
                         </a>
                         <!-- About -->
-                        <a href="" class="nav-item-active">
+                        <a href="about.html" class="nav-item-active">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 md:w-8 md:h-8 lg:w-9 lg:h-9"
                                 viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd"
@@ -142,11 +146,17 @@
                                 <div class="w-full relative flex flex-nowrap justify-center items-center">
                                     <h4 class="flex justify-center w-auto h-auto p-2 pl-4 pr-4 text-white font-normal text-lg rounded sm:w-auto "
                                         style="background: #E2502B;">
-                                        Mission
+                                        About Pollice
                                     </h4>
                                 </div>
                                 <p class="p-2 pt-4 sm:p-6 sm:pt-2 text-xs font-thin mt-1 ">Contrary to popular belief,
                                     The Missions app is designed for professional Pricing Auditors to gather retail
+                                    intelligence in the field. The app utilizes one of the largest pricing and product
+                                    databases in existence today to create quick 'missions' for auditors to collect
+                                    fresh ongoing data.The Missions app is designed for professional Pricing Auditors to gather retail
+                                    intelligence in the field. The app utilizes one of the largest pricing and product
+                                    databases in existence today to create quick 'missions' for auditors to collect
+                                    fresh ongoing data.The Missions app is designed for professional Pricing Auditors to gather retail
                                     intelligence in the field. The app utilizes one of the largest pricing and product
                                     databases in existence today to create quick 'missions' for auditors to collect
                                     fresh ongoing data.
@@ -154,57 +164,55 @@
                             </div>
                         </div>
                     </div>
-                    <div class="p-0 mb-12 sm:p-6 sm:pt-0 lg:pt-0">
-                        <!-- Content -->
-                        <div class="filter backdrop-blur-3xl w-auto h-auto p-5 border border-white lg:w-auto lg:flex lg:place-self-center"
-                            style=" background: linear-gradient(118.32deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
-                                backdrop-filter: blur(1000px);
-                                border-radius: 16px;">
-                            <div class=" flex place-items-start flex-nowrap flex-col w-auto p-1 ">
-                                <div class="w-full relative flex flex-nowrap justify-center items-center">
-                                    <h4 class="flex justify-center w-auto h-auto p-2 pl-4 pr-4 text-white font-normal text-lg rounded sm:w-auto "
-                                        style="background: #E2502B;">
-                                        Vision
-                                    </h4>
+                    <div class="w-auto h-auto space-y-3 md:space-y-0 md:grid md:grid-cols-2 md:gap-1">
+                        <div class="p-0 sm:p-6 sm:pt-0 lg:pt-0">
+                            <!-- Content -->
+                            <div class="filter backdrop-blur-3xl w-auto h-60 p-5 border border-white lg:w-auto lg:flex lg:place-self-center"
+                                style=" background: linear-gradient(118.32deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+                                    backdrop-filter: blur(1000px);
+                                    border-radius: 16px;">
+                                <div class=" flex place-items-start flex-nowrap flex-col w-auto p-1 ">
+                                    <div class="w-full relative flex flex-nowrap justify-center items-center">
+                                        <h4 class="flex justify-center w-auto h-auto p-2 pl-4 pr-4 text-white font-normal text-lg rounded sm:w-auto "
+                                            style="background: #E2502B;">
+                                            Mission
+                                        </h4>
+                                    </div>
+                                    <p class="p-2 pt-4 sm:p-6 sm:pt-2 text-xs font-thin mt-1 ">Contrary to popular belief,
+                                        The Missions app is designed for professional Pricing Auditors to gather retail
+                                        intelligence in the field. The app utilizes one of the largest pricing and product
+                                        databases in existence today to create quick 'missions' for auditors to collect
+                                        fresh ongoing data.
+                                    </p>
                                 </div>
-                                <p class="p-2 pt-4 sm:p-6 sm:pt-2 text-xs font-thin mt-1 ">Contrary to popular belief,
-                                    The Missions app is designed for professional Pricing Auditors to gather retail
-                                    intelligence in the field. The app utilizes one of the largest pricing and product
-                                    databases in existence today to create quick 'missions' for auditors to collect
-                                    fresh ongoing data.
-                                </p>
                             </div>
                         </div>
-                    </div>
-                    <div class="p-0 mb-12 sm:p-6 sm:pt-0 lg:pt-0">
-                        <!-- Content -->
-                        <div class="filter backdrop-blur-3xl w-auto h-auto p-5 border border-white lg:w-auto lg:flex lg:place-self-center"
-                            style=" background: linear-gradient(118.32deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
-                                backdrop-filter: blur(1000px);
-                                border-radius: 16px;">
-                            <div class=" flex place-items-start flex-nowrap flex-col w-auto p-1 ">
-                                <div class="w-full relative flex flex-nowrap justify-center items-center">
-                                    <h4 class="flex justify-center w-auto h-auto p-2 pl-4 pr-4 text-white font-normal text-lg rounded sm:w-auto "
-                                        style="background: #E2502B;">
-                                        About
-                                    </h4>
+                        <div class="p-0 mb-12 sm:p-6 sm:pt-0 lg:pt-0">
+                            <!-- Content -->
+                            <div class="filter backdrop-blur-3xl w-auto h-60 p-5 border border-white lg:w-auto lg:flex lg:place-self-center"
+                                style=" background: linear-gradient(118.32deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+                                    backdrop-filter: blur(1000px);
+                                    border-radius: 16px;">
+                                <div class=" flex place-items-start flex-nowrap flex-col w-auto p-1 ">
+                                    <div class="w-full relative flex flex-nowrap justify-center items-center">
+                                        <h4 class="flex justify-center w-auto h-auto p-2 pl-4 pr-4 text-white font-normal text-lg rounded sm:w-auto "
+                                            style="background: #E2502B;">
+                                            Vision
+                                        </h4>
+                                    </div>
+                                    <p class="p-2 pt-4 sm:p-6 sm:pt-2 text-xs font-thin mt-1 ">Contrary to popular belief,
+                                        The Missions app is designed for professional Pricing Auditors to gather retail
+                                        intelligence in the field. The app utilizes one of the largest pricing and product
+                                        databases in existence today to create quick 'missions' for auditors to collect
+                                        fresh ongoing data.
+                                    </p>
                                 </div>
-                                <p class="p-2 pt-4 sm:p-6 sm:pt-2 text-xs font-thin mt-1 ">Contrary to popular belief,
-                                    Vision by Mobile Insight is a real-time field team support, reporting and
-                                    intelligence application that instantly communicates store visit updates and issues
-                                    between field and corporate team members, provides scheduling and analysis
-                                    capabilities, and enables field teams to be more productive. It allows you to get
-                                    rid of the paper-based or post-call manual data entry and redundant follow-ups,
-                                    while upgrading to a powerful self-help tool that lets you get reminders, automate
-                                    your action items, and manage your business on-the-go using your smartphone.
-                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="mb-12 sm:p-6 sm:pt-0 lg:pt-0 w-screen h-auto">
                         <!-- Content -->
-                        <div class="filter backdrop-blur-3xl p-5 border border-white"
-                            style=" background: linear-gradient(118.32deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+                        <div class="filter backdrop-blur-3xl p-5 border border-white" style=" background: linear-gradient(118.32deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
                                 backdrop-filter: blur(1000px);
                                 border-radius: 16px;">
                             <div class="relative flex place-items-start flex-nowrap flex-col w-auto p-4 space-y-4 ">
@@ -213,7 +221,7 @@
                                         style="background: #E2502B;">
                                         App Contributors
                                     </h4>
-                                    <div class="sm:grid sm:grid-cols-3 sm:gap-4">
+                                    <div class="sm:grid sm:grid-cols-3 sm:gap-4 mt-5">
                                         <div class="flex flex-row items-center p-4 w-full h-full">
                                             <img src="img/Ellipse 55.png" class="w-16 h-16 m-2" alt="">
                                             <span class="block">
